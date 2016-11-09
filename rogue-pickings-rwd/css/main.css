@@ -1,0 +1,235 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-size: 1em;
+	max-width: 1200px; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+ }
+
+h1, 
+h3, 
+h4 {
+	color: black; 
+	text-transform: uppercase; 
+}
+
+/* header section */
+
+header {
+    font-size: 1.875em;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1em;
+	padding: 10px 0 5px 0;
+    margin-bottom: 0;
+    border-bottom: 3px solid #77a466
+}
+
+header h1 span {
+    color: #77a466;
+}
+header nav ul{
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 0 0 10px 0;
+    list-style: none;
+    line-height: 1;
+}
+
+header nav a {
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	font-size: .466em; 
+	color:#77a466;
+}
+
+/* TOP SECTION */
+
+.top-section {
+    font-size: 1.125em;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 3px solid #eee;
+}
+.top-section img {
+    width: 100%;
+}
+
+.top-section h3 {
+    font-size: 1em;
+    color:#77a466;
+    text-align: center;
+}
+.top-section p {
+    font-size: .777em;
+    text-align: justify;
+}
+
+/* BOTTOM SECTION  STACK ON TOP OF EACHOTHER */
+
+.bottom-section {
+    font-size: 1em;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.bottom-section h4 {
+    font-size: .75em;
+}
+.bottom-section p {
+    font-size: .875em;
+}
+.bottom-section .reviews, .address {
+    font-size: 1em;
+}
+.bottom-section ul{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+    line-height: 1.8;
+}
+
+.bottom-section li {
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	color:#77a466;
+}
+
+/* SEPARATE SECTIONS WITH A SINGLE LINE */
+
+.section-one, .section-two, .section-three {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #eee;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    font-size: .75em;
+    text-align: center;
+}
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+    }
+
+/* ------------ TABLET   ----------- */
+
+@media (min-width: 768px)
+{
+    header nav ul{
+        margin-bottom: 10px;
+        padding: 0;
+        list-style: none;
+    }
+
+    header nav li {
+        display: inline-block;
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-weight: bold; 
+        font-size: 1em; 
+        color:#77a466;
+    }
+    
+    .top-section {
+        border-bottom: none;
+    }
+    .top-section h3 {
+        text-align: left;
+    }
+    .top-section p {
+        font-size: .8em;
+        text-align: left;
+        line-height: 1.5;
+    
+    }
+    
+    .section-one, .section-two {
+        width: 44%;
+        float: left;
+        border-bottom: none;
+        margin: 20px;
+    }
+    .section-three {
+        clear: both;
+        border-top: 3px solid #eee;
+    }
+    
+}
+
+/*  ---------------- DESKTOP ------------------- */
+
+@media (min-width: 940px)
+{
+    
+    header h1 {
+        float: left;
+        text-align: left;
+        font-size: 1em;
+        padding: 15px 0;
+        margin-bottom: 0;
+        border: none;
+        background: none;
+    }
+    
+    header nav{
+        float:right;
+        margin-right: 10px;
+    }
+    
+    header nav ul{
+        list-style: none;
+    }
+
+    header nav li {
+        padding: 30px 0;
+        display: inline-block;
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-weight: bold; 
+        font-size: 1em; 
+        color:#77a466;
+    }
+    
+    .top-section p {
+        margin-bottom: 40px;
+    }
+   
+    .section-one, .section-two, .section-three {
+        width: 29%;
+        float: left;
+        margin: 0;
+        height: 170px;
+        text-align: left;
+        padding: 0 2%;
+        border-left: .5px solid #eee;
+        border-top: .5px solid #eee;
+        border-bottom: .5px solid #eee;
+    }
+    
+    .section-three {
+        clear:none;
+        border-right: .5px solid #eee;
+    }
+    
+    footer {
+        clear:both;
+        padding-top: 50px;
+    }
+}
+

@@ -1,0 +1,204 @@
+/* ----- Base Styles -------- */
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-color: white;
+}
+#about, #guiding, #contact {
+    height: 700px;
+}
+#guiding{
+    height: 600px;
+}
+
+/*----- GRID -----*/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.quarter-width {
+    width:300px;
+    float:left;
+}
+
+/*----- default fonts -----*/
+h1 {font-size:60px;}
+h2 {font-size:40px;}
+h3 {font-size:30px;}
+h4 {font-size: 20px;}
+p  {font-size: 25px;}
+
+
+/*----- Header Section -----*/
+header {
+    height:800px;
+    background: url('../img/background.jpeg');
+    background-size: cover;
+}
+header h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+header h1, header h3{
+    clear:both;
+    color: white;
+    text-shadow: 5px 1px black;
+    margin:0px;
+    text-align: center;
+}
+header h4 {
+    font-size:30px;
+    color: purple;
+    padding: 0 0 0 80px;
+}
+header h1 span, header h3 span {
+    background-color: rgba(33, 33, 33, .1);
+}
+nav {
+    float: right;
+    margin: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+}
+
+/*----- ABOUT SECTION -----*/
+
+#about{
+    padding:10px 0 0 0;
+}
+#about .picture {
+    margin: 15% 0 0 0; 
+}
+#about h2{
+    text-align: center;
+}
+#about h3 {
+    text-align: center;
+    margin: 0px;
+}
+#about img {
+    border-radius: 30%;
+    border: 12px solid black;
+    display: block;
+    margin: auto;
+    width: 40%;
+    }
+#about p {
+    font-size:20px;
+    margin-top:0;
+
+}
+
+/*----- Guiding Principles Section -----*/
+
+#guiding {
+    background-color: #eae5f9;
+    text-align: center;
+    padding: 10px;
+}
+
+#guiding img {
+    padding: 30px; 
+}
+
+#guiding h3 {
+    margin: 0 auto;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+#guiding p {
+    line-height:30px;
+    padding:10px 20px;
+    text-align:center;
+}
+
+/*------- CONTACT SECTION -------*/
+
+#contact .specialtext{
+    clear: both;
+    text-align: center;
+}
+#contact img {
+    width: 500px;
+    height: 400px;
+    margin-top:40px;
+    padding: 30px;
+}
+
+#contact a{
+    text-decoration: none;
+    color: purple;
+}
+#contact ul {
+    margin: 20px
+}
+#contact ul li{
+    text-decoration:none;
+    padding-left:0px;
+    font-size: 20px;
+}
+#contact h2 {
+    margin: 0px;
+    background: #eae5f9;
+    padding: 20px;
+}
+
+/*------- ATTRIBUTION FOR ICONS ON PAGE -------*/
+
+.attribution p{
+    font-size:12px;
+    color:darkgrey;
+    padding: 2px;
+}
+#contact .attribution a{
+    font-size:12px;
+    text-decoration:none;
+    color:darkgrey;
+}
+
+
+/*------- PORTFOLIO PAGE -------*/
+
+#portfolio-page {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+#portfolio-header {
+    height: 200px;
+    background: url('../img/portfolio.jpeg');
+    background-size: cover;
+    padding: 75px 0px 0px 0px;
+}
+#portfolio-header div{
+    width:100%;
+}
+.project{
+    margin: 20px 0;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.project img{
+    height:200px;
+    width: 300px;
+    padding: 0px;
+    border: 5px solid #ea9400; 
+}
+#roguepick-rwd img {
+    height: 200px;
+    width: 100px;
+}
